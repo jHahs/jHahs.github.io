@@ -45,7 +45,7 @@ h3 {
 
 .container { 
 	background-color: white;
-	 height:920px;
+	
      width: 100%;
 }
 
@@ -87,6 +87,17 @@ border: 4px solid black;
 	border-style: solid;
 	border-color: black;
 	
+	
+	
+}
+#attributes
+{
+	padding-bottom: 50px;
+}
+#att{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color:#efefef;
 }
 /* start of attributes */
 .container2 {
@@ -110,4 +121,11 @@ border: 4px solid black;
 	padding-right: 25%;
 }
 
-	
+.card-body{
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+.card-title{
+	padding-top: 10px;
+}
