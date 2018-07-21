@@ -151,10 +151,11 @@ hr{
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
-.footer
+footer
   {
+  	font-family:  'Josefin Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
    background-color:#efefef;
-   position:fixed;
-   bottom:0;
-   height:2%;
+   height:5%;
+   text-align: center;
   }
