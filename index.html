@@ -15,33 +15,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- /Bootsrap CSS -->
 
-		<script>
-			$(document).ready(function(){
-			  // Add smooth scrolling to all links
-			  $("a").on('click', function(event) {
-
-			    // Make sure this.hash has a value before overriding default behavior
-			    if (this.hash !== "") {
-			      // Prevent default anchor click behavior
-			      event.preventDefault();
-
-			      // Store hash
-			      var hash = this.hash;
-
-			      // Using jQuery's animate() method to add smooth page scroll
-			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-			      $('html, body').animate({
-			        scrollTop: $(hash).offset().top
-			      }, 800, function(){
-			   
-			        // Add hash (#) to URL when done scrolling (default click behavior)
-			        window.location.hash = hash;
-			      });
-			    } // End if
-			  });
-			});
-		</script>
-			
+		
 		
 
 	</head>
@@ -64,7 +38,7 @@
 						<a class="nav-link" href="#att">Attributes</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#proj">Projects</a>
 					  </li>
 					</ul>
 					<form class="form-inline my-2 my-lg-0 hidden-sm-down">
@@ -87,38 +61,6 @@
 			<!-- /HEADING -->
 			
 			<!-- ABOUT ME -->
-			<section id="am">
-			<div class="container text-center" style="background-color:#fff">
-			<h3 id="aboutme" >About me</h3>
-				<div class ="ab-border" style= "margin-right: 25%; margin-left: 25%; border-radius: 15px; padding-top: 10px; padding-left: 10px; padding-right: 10px; ">
-					<p class="styling text-center ">I am a software developer, currently specializing in JavaScript, C#, HTML5 and CSS3, as well as SQL. I am always increasing my skill set as my career progresses and learn whatever technology world would require of me as a developer.</p>
-					<p class="styling text-center">I may be new to the software developer scene, but I feel I am ready to take on the most daunting of tasks, and my skills should prove that. My goal is to be that "go to guy" for any situation and to make software that can be accessible to anyone, and for my software to flow smoothly as possible.</p>
-					<p class="styling text-center ">I'm hard working, I'm excited, and I would love to join your team and create some beautiful code.</p>
-				</div>
-			<h3>Social Media</h3>
-				<div class="wrapper">
-				<a href="https://www.facebook.com/josh.hahs.1">
-				<i class="fab fa-facebook fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to facebook!" style="color: #3B5998" id="fb"></i> 
-				</a>
-				<a href="https://www.linkedin.com/in/joshua-hahs/">
-				<i class="fab fa-linkedin fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to linkedin!" style="color:#0077B5" id="li"></i> 
-				</a>
-				<a href="https://github.com/jHahs">
-				<i class="fab fa-github-square fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to github!" style="color:#6e5494" id="git"></i> 
-				</a>
-				</div>
-				<br>	
-				<br>
-				<br>
-				<div id="circle"></div>
-			<h3>My Squad</h3>
-			</div>
-			</section>
-			
-			
-			<!-- /ABOUT ME -->
-			
-			<!-- Attributes -->
 			<section id="att" >
 				<div class="container text-center" style="background-color:#efefef;">
 					<h3  class="text-center">Attributes</h3>
@@ -183,13 +125,14 @@
 					  </div>
 				</div>
 			</section>
-	
-			<!-- /Attributes -->
 			
-			<!-- Portfolio -->
-			<section id="port">
+			
+			<!-- /ABOUT ME -->
+			
+			<!-- Attributes -->
+			<section id="proj">
 			<div class="container" style="background-color:#fff">
-					<h3 id="projects" class="text-center">Projects</h3>
+					<h3 class="text-center">Projects</h3>
 				<div class="card" style=" margin-left: 40%; margin-right: 40%; border-width: 2px; border-color: black;">
 		   				 <img class="card-img-top" src="./img/br_logo_gold.png" alt="Card image cap">
 		    		<div class="card-body">
@@ -200,12 +143,68 @@
 		  		</div>
 			</div>
 			</section>
+			<!-- /Attributes -->
+			
+			<!-- Projects -->
+			<section id = "am"></section>
+			<div class="container text-center" style="background-color:#efefef">
+			<h3 id="aboutme" >About me</h3>
+				<div class ="ab-border" style= "margin-right: 25%; margin-left: 25%; border-radius: 15px; padding-top: 10px; padding-left: 10px; padding-right: 10px; ">
+					<p class="styling text-center ">I am a software developer, currently specializing in JavaScript, C#, HTML5 and CSS3, as well as SQL. I am always increasing my skill set as my career progresses and learn whatever technology world would require of me as a developer.</p>
+					<p class="styling text-center">I may be new to the software developer scene, but I feel I am ready to take on the most daunting of tasks, and my skills should prove that. My goal is to be that "go to guy" for any situation and to make software that can be accessible to anyone, and for my software to flow smoothly as possible.</p>
+					<p class="styling text-center ">I'm hard working, I'm excited, and I would love to join your team and create some beautiful code.</p>
+				</div>
+			<h3>Social Media</h3>
+				<div class="wrapper">
+					<a href="https://www.facebook.com/josh.hahs.1">
+					<i class="fab fa-facebook fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to facebook!" style="color: #3B5998" id="fb"></i> 
+					</a>
+					<a href="https://www.linkedin.com/in/joshua-hahs/">
+					<i class="fab fa-linkedin fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to linkedin!" style="color:#0077B5" id="li"></i> 
+					</a>
+					<a href="https://github.com/jHahs">
+					<i class="fab fa-github-square fa-4x" data-toggle="tooltip" data-placement="bottom" title="Link to github!" style="color:#6e5494" id="git"></i> 
+					</a>
+				</div>
+				<br>	
+				<br>
+				<br>
+				<div id="circle"></div>
+			<h3 >My Squad</h3>
+			
+			
 
-			
-				
-			</section>
+
 			<footer>Coded by Josh Hahs</footer>
-			
+			</div>
+			</section>
+
+						<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			   
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		</script>
 
 			
 	
