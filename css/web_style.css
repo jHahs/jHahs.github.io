@@ -3,7 +3,7 @@
 .container-header{
 	background:linear-gradient(rgba(145, 145, 145, 0.6), rgba(145, 145, 145, 0.6)),url(../img/code-coding2-computer-574073.jpg);
 	background-size: cover;
-	background-position: center center; 
+	background-position: center; 
 	width: 100%;
 
 }
@@ -26,12 +26,15 @@
 }
 /* main "softdev" title and coloring for it*/
 h1 {
-	padding-top:320px;
-	font-family:'IBM Plex Sans', sans-serif;
+	padding-top:250px;
+	font-family:'impact';
 	color: #fff;
 	font-weight:bold;
-	text-transform:uppercase;
+	margin-left: 15%;
+	font:16px;
 	text-shadow: black 0.5em 0.5em 0.5em;
+	width:75%;
+
 }
 		
  /* -- text under h2 --*/
